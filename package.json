@@ -1,0 +1,14 @@
+{
+  "name": "grid-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Frontend Mentor grid landing page styled with Tailwind CSS.",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
